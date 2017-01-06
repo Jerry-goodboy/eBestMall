@@ -2,12 +2,12 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'eBest';
+$this->title = \yii\helpers\Html::encode(Yii::$app->name);
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>eBest</h1>
+        <h1><?= \yii\helpers\Html::encode(Yii::$app->name)?></h1>
 
         <p class="lead">基于MVC架构，前端采用Bootstrap框架，后端采用Yii2.0框架。</p>
 
