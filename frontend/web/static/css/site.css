@@ -119,15 +119,3 @@ a.desc:after {
     outline: none;
 }
 
-.breadcrumb{
-    width:1200px; height:40px; line-height:40px; overflow:hidden; font-family:"宋体";
-}
-
-.breadcrumb>li{
-    display: inline-block;
-}
-
-.breadcrumb > li + li:before{
-    color: #ccc;
-    content: '>\00a0';
-}

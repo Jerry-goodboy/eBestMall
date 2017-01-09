@@ -148,7 +148,7 @@ table.c_tab tr th{
     width:520px; height:65px; overflow:hidden; float:left; display:inline; margin-left:71px; margin-top:50px;
 }
 .s_ipt{
-    width:408px; height:36px; line-height:36px\9; overflow:hidden; color:#555555; font-size:14px; font-family:"Microsoft YaHei"; float:left; padding:0 10px; border:2px solid var(--main-color); border-right:0;
+    width:430px; height:40px; line-height:36px\9; overflow:hidden; color:#555555; font-size:14px; font-family:"Microsoft YaHei"; float:left; padding:0 10px; border:2px solid var(--main-color); border-right:0;
 }
 .s_btn{
     width:90px; height:40px; line-height:40px\9; background-color:var(--main-color); color:#FFF; font-size:16px; font-family:"Microsoft YaHei"; text-align:center; float:left; border:0; cursor:pointer;
@@ -158,7 +158,7 @@ table.c_tab tr th{
 }
 
 .i_car{
-    width:141px; height:38px; line-height:38px; background:url(../images/car.png) no-repeat 10px center; background-color:#f6f6f6; float:right; margin-top:50px; border:1px solid #d9d9d9; position:relative;
+    width:143px; height:40px; line-height:38px; background:url(../images/car.png) no-repeat 10px center; background-color:#f6f6f6; float:right; margin-top:50px; border:1px solid #d9d9d9; position:relative;
 }
 .car_t{
     width:95px; height:38px; overflow:hidden; background:url(../images/d_arrow.png) no-repeat right center; font-size:14px; margin-left:38px; cursor:pointer;
@@ -170,7 +170,7 @@ table.c_tab tr th{
     display:block;
 }
 .car_bg{
-    width:283px; overflow:hidden; background-color:#FFF; border:1px solid #d9d9d9; position:absolute; right:-1px; top:38px; z-index:900; display:none;
+    width:283px; overflow:hidden; background-color:#FFF; border:1px solid #d9d9d9; position:absolute; right:-1px; top:36px; z-index:900; display:none;
 }
 .un_login{
     overflow:hidden; text-align:center; margin:15px auto;
@@ -212,7 +212,7 @@ ul.cars li .price{
 
 
 .menu_bg{
-    width:100%; min-width:1200px; height:43px; border-bottom:2px solid var(--main-color);
+    width:100%; min-width:1200px; height:45px; border-bottom:2px solid var(--main-color);
 }
 .menu{
     width:1200px; height:43px; line-height:43px; color:#3e3e3e; font-size:16px; position:relative; z-index:800;
@@ -2421,21 +2421,19 @@ ul.pay li.checked .ch_img{
     color:#999999; text-decoration:underline;
 }
 .btm img{
-    display:inline-block; margin:15px 5px 5px 5px; border:1px solid #d9d9d9; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;
+    width: 100px; height: 35px; display:inline-block; margin:15px 5px 5px 5px; border:1px solid #d9d9d9; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;
 }
 
 /* 面包屑 */
-
 .breadcrumb{
-    width:1200px; height:40px; line-height:40px; overflow:hidden; font-family:"宋体";
-}
-
-.breadcrumb>li{
-    display: inline-block;
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 8px 0;
+    overflow:hidden;
+    font-family:"宋体";
 }
 
 .breadcrumb > li + li:before{
-    color: #ccc;
     content: '>\00a0';
 }
 

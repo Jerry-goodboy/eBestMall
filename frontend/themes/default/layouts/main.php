@@ -567,7 +567,12 @@ if (Yii::$app->controller->action->id === 'login') {
         <div class="btmbg">
             <div class="btm">
                 备案/许可证编号：备ICP备00000000号 www.hongyuvip.com   Copyright © 2015-2018 eBestMall商城 All Rights Reserved. 复制必究 , Technical Support: HongYuKeJi <br />
-                <img src="static/images/b_1.gif" width="98" height="33" /><img src="static/images/b_2.gif" width="98" height="33" /><img src="static/images/b_3.gif" width="98" height="33" /><img src="static/images/b_4.gif" width="98" height="33" /><img src="static/images/b_5.gif" width="98" height="33" /><img src="static/images/b_6.gif" width="98" height="33" />
+                <img src="static/images/b_1.gif" />
+                <img src="static/images/b_2.gif" />
+                <img src="static/images/b_3.gif" />
+                <img src="static/images/b_4.gif" />
+                <img src="static/images/b_5.gif" />
+                <img src="static/images/b_6.gif" />
             </div>
         </div>
         <!--End Footer End -->
